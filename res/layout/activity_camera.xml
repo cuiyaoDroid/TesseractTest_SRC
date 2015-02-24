@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- Camera Preview background -->
+
+    <SurfaceView
+        android:id="@+id/mezzofanti_preview_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <com.xianzhi.view.CaptureLayout
+        android:id="@+id/mezzofanti_capturelayout_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent" />
+
+</FrameLayout>
